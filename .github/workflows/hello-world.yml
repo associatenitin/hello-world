@@ -15,7 +15,7 @@ jobs:
       run: sudo apt-get install build-essential
 
     - name: Compile the code
-      run: gcc -o hello_world hello_world.c
+      run: gcc -o hello_world hello-world.c
 
     - name: Run the program
-      run: ./hello_world
+      run: ./hello-world
